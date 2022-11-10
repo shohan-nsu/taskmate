@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-import django-heroku
+import heroku as heroku
+import django_heroku
 import os
 import environ
 
